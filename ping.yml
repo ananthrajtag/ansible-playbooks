@@ -1,5 +1,6 @@
 ---
-- hosts: '{{inventory}}'
+#- hosts: '{{inventory}}'
+- hosts: '52.22.83.229'
   become: yes
 
   tasks:
